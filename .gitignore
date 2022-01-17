@@ -1,0 +1,5 @@
+# NodeJS stuff
+node_modules/
+
+# Build directory
+build/
