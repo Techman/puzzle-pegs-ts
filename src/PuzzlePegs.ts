@@ -90,7 +90,6 @@ export class PuzzlePegs {
 		// Assign starting hole and ending peg location
 		this.startPos = startPos;
 		this.endPos = endPos;
-		console.debug(`new PuzzlePegs(startPos = ${startPos}, endPos = ${endPos})`);
 
 		// Initalize board and jump history
 		this.boards = [];
