@@ -1,0 +1,25 @@
+{
+  "name": "puzzle-pegs",
+  "version": "1.0.0",
+  "description": "This is the TypeScript version of the [Puzzle Pegs](https://github.com/Techman/puzzle-pegs) program.",
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node --unhandled-rejections=strict .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Hazell",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techman/puzzle-pegs-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Techman/puzzle-pegs-ts/issues"
+  },
+  "homepage": "https://github.com/Techman/puzzle-pegs-ts#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
